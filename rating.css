@@ -254,7 +254,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
     width:35px;
     height:35px;
     margin:1px;
-    border-radius:2px;
+    border-radius:3px;
 }
 
 .button-rating:focus {
@@ -264,6 +264,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .button-rating-selected {
     color: #fff!important;
     background-color: #000!important; 
+    border: 2px solid #000!important; 
 }
 
 .button-rating:hover {
@@ -319,6 +320,16 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 .cvg-anchor-right {
     text-align:right;
+}
+
+.cvg-grid-attr {
+    background-color: #2b6ce2;
+    color:#fff;
+    padding: 8px;
+}
+
+.cvg-response-container {
+    padding: 12px 0px;
 }
 
 
